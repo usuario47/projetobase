@@ -1,0 +1,22 @@
+body{
+background-color: rgb(31, 30, 30);
+}
+.container{
+    display: flex;
+    /* gap: 20px 40px;  */
+    /* row-gap: 10px; */
+   /* height: 600px; */
+   /* flex-flow: column wrap; */
+    background-color: rgb(17, 0, 255);
+   /* justify-content: center;*/
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.item{
+    /* width: 200px; */
+    height: 200px;
+    background-color: rgb(238, 255, 0);
+}   
+.intem-3{
+    flex-grow: 1;
+}
