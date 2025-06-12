@@ -45,7 +45,7 @@ else if(pontuacao >=1001 && pontuacao <=5000) {
 }
 else if(pontuacao >=5001 && pontuacao <=10000) {
     aler("seu bônus de xp é 1000")
-}*/
+}
 let basico = 25
 let premium = 40 
 let Ultra = 60
@@ -65,3 +65,61 @@ if(assinatura == "basico") {
     else{
      alert(" seu plano terá o valor de"+basico+"R$")
     }
+let daysOFWeek = ["Caio", "Samuel"]; 
+console.log(daysOFWeek.length)
+let listdiver = ["Caio",1,2.5,"Escola",false]
+let nomedoaluno = prompt("Digite o nome do novo aluno: ")
+daysOFWeek.push(nomedoaluno)
+console.log("Os alunos da escola são:" +daysOFWeek) 
+let daysOFWeek = ["Caio", "Samuel"]; 
+console.log(daysOFWeek.length)
+let nomedoaluno= prompt("Digite o nome do novo aluno: ")
+daysOFWeek.unshift("Caique", "lyan", "Clara")
+daysOFWeek.push(nomedoaluno)
+daysOFWeek.sort()
+daysOFWeek
+console.log("Os alunos da escola são:" +daysOFWeek) 
+console.log(daysOFWeek.indexOf("Samuel"))
+const alunos =["Ana", "Bruno", "Carlos", "Diana"];
+for (const aluno of alunos){
+    console.log("Olá,"+aluno+"!");
+}
+
+let number = Number(prompt("digite o número que deseja somar aos anteriores: "))
+let numberfinal=0
+while(number != 0){
+    numberfinal = numberfinal+number
+    number = Number(prompt("digite o número que deseja somar aos anteriores: "))
+
+console.log(  "O número final é "  +numberfinal)
+}
+
+ for (let i=1; i<10; i++){
+    console.log(i)
+ }
+ function saudar()
+ {
+    console.log("ola mundo");
+ }
+
+function saudar(){
+    alert("Seja bem vindo ao sistema")
+}
+saudar()
+function dobrarNumero(numero){
+    return numero *2;}
+ let resultado = dobrarNumero(20)
+ alert("O resultado é:"+resultado)
+ function cumprimentar(nome){
+    alert("Oi "+nome+" tenha um exelente dia!")
+ }
+ let nomedousuario = prompt("Digite o seu nome:")
+ cumprimentar(nomedousuario)*/
+ function contagemRegressiva(numero){
+   alert(numero)
+    if(numero ===0){
+        alert()
+}
+    contagemRegressiva(numero -1);
+}
+    contagemRegressiva(5); 
